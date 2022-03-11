@@ -1,0 +1,41 @@
+body{
+    background-image: linear-gradient(to right,#532a96, #08346d, #063452, #103463,#3c137e);
+}
+header{
+    display: flex;
+   margin-top: -0.99%;
+   margin-left: -1%;
+   width: 102%;
+   padding: 0,7% 0%;
+   background-color: #101b1b;
+   top: 0;
+   left: 0;
+   right: 0;
+   position: fixed;
+}
+li, a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.button{
+    text-align:center;
+    margin-top:5%;
+    margin-left:5%;
+    width: 7%;
+    padding: 1%;
+    transition: 0.7s ease 0s;
+    color:aliceblue;
+    border-color: aliceblue;
+    border-style: solid;
+    border-radius:18%;
+    
+    background-color:transparent 
+}
+.button:hover{
+    color:aliceblue;
+    border-style: solid;
+    background-color: #008E9B;
+    color: aliceblue;
+    cursor: pointer;
+}
