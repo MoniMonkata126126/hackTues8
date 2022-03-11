@@ -1,5 +1,8 @@
 body{
-    background-image: linear-gradient(to right top, #29195e, #1f1752, #171547, #10133b, #0c0e2f, #190c2a, #210b25, #260b20, #350e19, #3d170d, #3c2401, #323204);
+    background-image: linear-gradient(to left top, #29195e, #1f1752, #171547, #10133b, #0c0e2f, #190c2a, #210b25, #260b20, #350e19, #3d170d, #3c2401, #323204);
+    color:aliceblue;
+    height: 5px;
+    text-align: center;
 }
     li, a, button{
 
@@ -71,4 +74,44 @@ list-style: none;
 }
 .logo{
     margin-left: 20px;
+}
+.question{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 10%;
+}
+.button_2{
+    font-family: sans-serif;
+    position:absolute;
+    background-color:#101b1b;
+    border-style:solid;
+    border-color: aliceblue;
+    border-radius: 30px;
+    padding: 18px 100px;
+}
+.button_2:hover{
+    outline-style: auto;
+    outline-color:aliceblue;
+    cursor:pointer;
+    background-color: rgba(3, 26, 46, 0.6);
+}
+#myVideo{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+.question{
+    background-color: #101b1b;
+    width:30% ;
+    padding:2% 0% ;
+    margin-left:522px;
+    margin-right:500px;
+    border-radius:40px;
 }

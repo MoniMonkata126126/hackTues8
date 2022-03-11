@@ -1,0 +1,34 @@
+{% load static %}
+
+s<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>space.com/quiz</title>
+    <link rel="stylesheet" href="{% static 'quiz_css_hacktues.css' %}">
+</head>
+<header>
+    <a class ="logo" href = "#">Logo</a>
+    <nav>
+        <ul class = "Buttons">
+            <li><a href = "{% url 'homepage' %}">Home</a></li>
+            <li><a href = "#">Info</a></li>
+        </ul>
+    </nav>
+    <a href=""><button class="button"><strong>Sign up</strong></button></a>
+</header>
+<body>
+    <video  autoplay muted loop id="myVideo">
+        <source src="{% static 'sky_video.mp4' %}" type="video/mp4">
+      </video>
+        <h1><hr><hr></h1>
+        <h2 class = "question" style="margin-left: 34.8%;">question</h2>
+        <button class="button_2" style = "top:50%; left: 28%;"><strong>answer_1</strong></button>
+        <button class="button_2" style = "top:63%; left: 28%;"><strong>answer_2</strong></button>
+        <button class="button_2" style = "top:50%; left: 53%;"><strong>answer_3</strong></button>
+        <button class="button_2" style = "top:63%; left: 53%;"><strong>answer_4</strong></button>
+
+    <h1>
+        Ha Gaaaaay{{quiz_msg}}
+    </h1>
+</body>

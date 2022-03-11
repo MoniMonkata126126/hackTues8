@@ -1,25 +1,25 @@
-<!DOCTYPE html>
+{% load static %}
+
+s<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>space.com</title>
-    <link rel="stylesheet" href="home_css_hacktues.css">
+    <link rel="stylesheet" href="{% static 'home_css_hacktues.css' %}">
 </head>
-<header class = "navbar">
-       <nav>
-           <ul>
-               <li><a href = "#">Home</a></li>
-               <li><a href = "quiz.html">Quiz</a></li>
-               <li><a href = "#">Info</a></li>
-           </ul>
-       </nav>
+<header>
+    <a class ="logo" href = "#">Logo</a>
+    <nav>
+        <ul class = "Buttons">
+            <li><a href = "{% url 'quiz' %}">Quiz</a></li>
+            <li><a href = "#">Info</a></li>
+        </ul>
+    </nav>
+    <a href=""><button class="button"><strong>Sign up</strong></button></a>
 </header>
 <body>
 
-    <div>
-        <link rel="stylesheet" href="home_css_hacktues.css"> 
-    <div>
-        <a href=""><button class="button"><strong>Sign up</strong></button></a>
+      
    
     </div>
 
