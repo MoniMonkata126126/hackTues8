@@ -1,7 +1,4 @@
-body{
-    background-image: linear-gradient(to right top, #29195e, #1f1752, #171547, #10133b, #0c0e2f, #190c2a, #210b25, #260b20, #350e19, #3d170d, #3c2401, #323204);
-}
-    li, a, button{
+li, a, button{
 
     color:aliceblue;
     text-decoration: none;
@@ -15,7 +12,7 @@ header{
    align-items:  center;
    width: 100%;
    padding: 1% 0%;
-   background-color: #101b1b;
+   background-color: #10101b;
    top: 0;
    left: 0;
    right: 0;
@@ -71,4 +68,15 @@ list-style: none;
 }
 .logo{
     margin-left: 20px;
+}
+.image{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;  
 }
